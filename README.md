@@ -3,7 +3,7 @@ A simple script to fetch proxy server from websites, validate their availability
 Currently supports HTTP, SOCKS4, SOCKS5     
 Supports parsing websites of [cn-proxy.com](http://www.cn-proxy.com), [cnproxy.com](http://www.cnproxy.com). You can write your own parser in html_parser.py
 
-##Validation method
+## Validation method
 Using flask web app, connect to your own server to validate the anonymity (So, your server must have a public IPv4 address).    
 Can be accessed by GET http://\<your_server_ip\>:\<port\>/checkProxy    
 Will return the following headers and your remote address in json format:        
