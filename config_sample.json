@@ -1,0 +1,10 @@
+{
+  "ip": "ip",
+  "port": 6666,
+  "db": "sqlite:///./test.db",
+  "url": [
+    "http://cn-proxy.com"
+  ],
+  "tv": 32,
+  "ts": 8
+}
